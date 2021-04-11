@@ -1,0 +1,17 @@
+main.go是第四次课的作业
+
+main.go共有六个功能
+
+1.//注册
+	// signup?username=qwedfv&password=**********
+  
+  成功则返回sign up successfully qwedfv（username）
+  
+  二次注册则会返回qwedfv has already exsited
+  
+2.登录
+  http://localhost:8080/signin?username=qwedfv&password=**********
+  
+  成功返回 qwedfv signin successfully
+  密码错误返回 username or password is wrong
+  用户名不存在返回 user is not found
